@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/760a783ab5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Points Table | ICC Men's T20 World Cup 2024</title>
+</head>
+<body>
+   <!--T20-WorldCup-2024-NavBar-->
+   <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="t20-wc-nav-bar-bg-color">
+    <a class="navbar-brand" href="#">
+        <img src="./Images/ICCT20W- 2024 _ Logo.jpeg" class="t20-wc-2024-logo-small d-block d-md-none"/>
+        <img src="./Images/ICCT20W- 2024 _ Logo.jpeg" class="t20-wc-2024-logo d-none d-md-block"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link active d-md-none" id="nav-item-link-1-small" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link d-md-none" id="nav-item-link-2-small" href="matches.html">Matches</a>
+        <a class="nav-link d-md-none" id="nav-item-link-3-small" href="teams.html">Teams</a>
+        <a class="nav-link d-md-none" id="nav-item-link-4-small" href="points_table.html">Points Table</a>
+        <a class="nav-link d-md-none" id="nav-item-link-5-small" href="#">Venues</a>
+        <a class="nav-link d-md-none" id="nav-item-link-6-small" href="#">News</a>
+        <a class="nav-link d-md-none" id="nav-item-link-7-small" href="#">Info</a>
+        <a class="nav-link d-md-none" id="nav-item-link-8-small" href="#">Contact Us</a>
+        <a class="nav-link active d-none d-md-block" id="nav-item-link-1" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link d-none d-md-block" id="nav-item-link-2" href="matches.html">Matches</a>
+        <a class="nav-link d-none d-md-block" id="nav-item-link-3" href="teams.html">Teams</a>
+        <a class="nav-link d-none d-md-block" id="nav-item-link-4" href="points_table.html">Points Table</a>
+        <a class="nav-link d-none d-md-block" id="nav-item-link-5" href="#">Venues</a>
+        <a class="nav-link d-none d-md-block" id="nav-item-link-6" href="#">News</a>
+        <a class="nav-link d-none d-md-block" id="nav-item-link-7" href="#">Info</a>
+        <a class="nav-link d-none d-md-block" id="nav-item-link-8" href="#">Contact Us</a>
+      </div>
+    </div>
+   </nav>
+    <!--t20-wc-24-standing-section-->
+      <div class="t20-wc-24-standing-section-bg-container pt-4 pb-5 mt-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="pt-5">
+                <h1 class="t20-wc-24-standing-section-heading mt-4 mb-3">
+                  t20 wc 2024 points table
+                </h1>
+              </div>
+              <div>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation" id="super-eight-group-1">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">super 8 <br/> group 1</a>
+                  </li>
+                  <li class="nav-item" role="presentation" id="super-eight-group-2">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">super 8 <br/> group 2</a>
+                  </li>
+                  <li class="nav-item" role="presentation" id="group-a">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">group a</a>
+                  </li>
+                  <li class="nav-item" role="presentation" id="group-b">
+                      <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home-1" role="tab" aria-controls="pills-home-1" aria-selected="true">group b</a>
+                    </li>
+                    <li class="nav-item" role="presentation" id="group-c">
+                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile-1" role="tab" aria-controls="pills-profile-1" aria-selected="false">group c</a>
+                    </li>
+                    <li class="nav-item" role="presentation" id="group-d">
+                      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact-1" role="tab" aria-controls="pills-contact-1" aria-selected="false">group d</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <h1 class="t20-wc-24-standing-section-points-table-name mb-3 mt-3">
+                      super eight - group 1
+                    </h1>
+                    <div class="d-md-none">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col" class="text-center">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">pld</th>
+                            <th scope="col" class="text-center">nrr</th>
+                            <th scope="col" class="text-center">pts</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 1</th>
+                            <td>
+                              <img src="./Images/india-flag.png" class="point-table-team-image-small" alt="india-logo">
+                              <span class="point-table-teams-name">
+                                ind 
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">+2.017</td>
+                            <td class="text-center">6</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 2</th>
+                            <td>
+                              <img src="./Images/Flag-Afghanistan.webp" class="point-table-team-image-small" alt="afghanistan-logo">
+                              <span class="point-table-teams-name">
+                                afg 
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">-0.305</td>
+                            <td class="text-center">4</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;3</th>
+                            <td>
+                              <img src="./Images/Australia-flag.svg.png" class="point-table-team-image-small" alt="australia-logo">
+                              <span class="point-table-teams-name">
+                                aus 
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">-0.331</td>
+                            <td class="text-center">2</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;4</th>
+                            <td>
+                              <img src="./Images/bangladesh-flag.png" class="point-table-team-image-small" alt="bangladesh-logo">
+                              <span class="point-table-teams-name">
+                                ban 
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">-1.709</td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="d-none d-md-block">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">played</th>
+                            <th scope="col" class="text-center">won</th>
+                            <th scope="col" class="text-center">lost</th>
+                            <th scope="col" class="text-center">n/r</th>
+                            <th scope="col" class="text-center">tied</th>
+                            <th scope="col" class="text-center">net rr</th>
+                            <th scope="col" class="text-center">points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="text-cente t20-wc-24-point-table-rows">
+                            <th scope="row">Q 1</th>
+                            <td>
+                              <img src="./Images/india-flag.png" class="point-table-team-image" alt="india-logo">
+                              <span class="point-table-teams-name ml-2">
+                                indai
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+2.017</td>
+                            <td class="text-center">6</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">Q 2</th>
+                            <td>
+                              <img src="./Images/Flag-Afghanistan.webp" class="point-table-team-image" alt="afghanistan-logo">
+                              <span class="point-table-teams-name ml-2">
+                                afghanistan 
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-0.305</td>
+                            <td class="text-center">4</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 3</th>
+                            <td>
+                              <img src="./Images/Australia-flag.svg.png" class="point-table-team-image" alt="australia-logo">
+                              <span class="point-table-teams-name ml-2">
+                                australia  
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-0.331</td>
+                            <td class="text-center">2</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 4</th>
+                            <td>
+                              <img src="./Images/bangladesh-flag.png" class="point-table-team-image" alt="bangladesh-logo">
+                              <span class="point-table-teams-name ml-2">
+                                bangladesh  
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-0.331</td>
+                            <td class="text-center">2</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>      
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <h1 class="t20-wc-24-standing-section-points-table-name mb-3 mt-3">
+                      super eight - group 2
+                    </h1>
+                    <div class="d-md-none">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col" class="text-center">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">pld</th>
+                            <th scope="col" class="text-center">nrr</th>
+                            <th scope="col" class="text-center">pts</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 1</th>
+                            <td>
+                              <img src="./Images/south-africa-flag.png" class="point-table-team-image-small" alt="south-africa-logo">
+                              <span class="point-table-teams-name">
+                                sa 
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">+0.599</td>
+                            <td class="text-center">6</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 2</th>
+                            <td>
+                              <img src="./Images/enlgand-flag.png" class="point-table-team-image-small" alt="englad-logo">
+                              <span class="point-table-teams-name">
+                                eng  
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">+1.992</td>
+                            <td class="text-center">4</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;3</th>
+                            <td>
+                              <img src="./Images/wi-flag.png" class="point-table-team-image-small" alt="wi-logo">
+                              <span class="point-table-teams-name">
+                                wi  
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">+0.963</td>
+                            <td class="text-center">2</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;4</th>
+                            <td>
+                              <img src="./Images/usa-flag.png" class="point-table-team-image-small" alt="usa-logo">
+                              <span class="point-table-teams-name">
+                                usa 
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">-3.906</td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="d-none d-md-block">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">played</th>
+                            <th scope="col" class="text-center">won</th>
+                            <th scope="col" class="text-center">lost</th>
+                            <th scope="col" class="text-center">n/r</th>
+                            <th scope="col" class="text-center">tied</th>
+                            <th scope="col" class="text-center">net rr</th>
+                            <th scope="col" class="text-center">points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="text-cente t20-wc-24-point-table-rows">
+                            <th scope="row">Q 1</th>
+                            <td>
+                              <img src="./Images/south-africa-flag.png" class="point-table-team-image" alt="south-africa-logo">
+                              <span class="point-table-teams-name ml-2">
+                                south africa 
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+0.599</td>
+                            <td class="text-center">6</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">Q 2</th>
+                            <td>
+                              <img src="./Images/enlgand-flag.png" class="point-table-team-image" alt="england-logo">
+                              <span class="point-table-teams-name ml-2">
+                                england  
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+1.992</td>
+                            <td class="text-center">4</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 3</th>
+                            <td>
+                              <img src="./Images/wi-flag.png" class="point-table-team-image" alt="wi-logo">
+                              <span class="point-table-teams-name ml-2">
+                                west indies  
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+0.963</td>
+                            <td class="text-center">2</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 4</th>
+                            <td>
+                              <img src="./Images/usa-flag.png" class="point-table-team-image" alt="usa-logo">
+                              <span class="point-table-teams-name ml-2">
+                                usa  
+                              </span>
+                            </td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-3.906</td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>   
+                  </div>
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <h1 class="t20-wc-24-standing-section-points-table-name mb-3 mt-3">
+                      group a 
+                    </h1>
+                    <div class="d-md-none">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col" class="text-center">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">pld</th>
+                            <th scope="col" class="text-center">nrr</th>
+                            <th scope="col" class="text-center">pts</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 1</th>
+                            <td>
+                              <img src="./Images/india-flag.png" class="point-table-team-image-small" alt="india-logo">
+                              <span class="point-table-teams-name">
+                                ind 
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+1.137</td>
+                            <td class="text-center">7</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 2</th>
+                            <td>
+                              <img src="./Images/usa-flag.png" class="point-table-team-image-small" alt="usa-logo">
+                              <span class="point-table-teams-name">
+                                usa   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+0.127</td>
+                            <td class="text-center">5</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;3</th>
+                            <td>
+                              <img src="./Images/pakistan-flag.jpeg" class="point-table-team-image-small" alt="pakistan-logo">
+                              <span class="point-table-teams-name">
+                                pak  
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+0.294</td>
+                            <td class="text-center">4</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;4</th>
+                            <td>
+                              <img src="./Images/canada-flag.png" class="point-table-team-image-small" alt="canada-logo">
+                              <span class="point-table-teams-name">
+                                can  
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">-0.493</td>
+                            <td class="text-center">3</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;5</th>
+                            <td>
+                              <img src="./Images/ireland-flag.png" class="point-table-team-image-small" alt="ireland-logo">
+                              <span class="point-table-teams-name">
+                                ire   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">-1.293</td>
+                            <td class="text-center">1</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="d-none d-md-block">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">played</th>
+                            <th scope="col" class="text-center">won</th>
+                            <th scope="col" class="text-center">lost</th>
+                            <th scope="col" class="text-center">n/r</th>
+                            <th scope="col" class="text-center">tied</th>
+                            <th scope="col" class="text-center">net rr</th>
+                            <th scope="col" class="text-center">points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="text-cente t20-wc-24-point-table-rows">
+                            <th scope="row">Q 1</th>
+                            <td>
+                              <img src="./Images/india-flag.png" class="point-table-team-image" alt="india-logo">
+                              <span class="point-table-teams-name ml-2">
+                                india  
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+1.137</td>
+                            <td class="text-center">7</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">Q 2</th>
+                            <td>
+                              <img src="./Images/usa-flag.png" class="point-table-team-image" alt="usa-logo">
+                              <span class="point-table-teams-name ml-2">
+                                usa  
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+0.127</td>
+                            <td class="text-center">5</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 3</th>
+                            <td>
+                              <img src="./Images/pakistan-flag.jpeg" class="point-table-team-image" alt="pakistan-logo">
+                              <span class="point-table-teams-name ml-2">
+                                pakistan   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+0.294</td>
+                            <td class="text-center">4</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 4</th>
+                            <td>
+                              <img src="./Images/canada-flag.png" class="point-table-team-image" alt="canada-logo">
+                              <span class="point-table-teams-name ml-2">
+                                canada   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-0.493</td>
+                            <td class="text-center">3</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 5</th>
+                            <td>
+                              <img src="./Images/ireland-flag.png" class="point-table-team-image" alt="ireland-logo">
+                              <span class="point-table-teams-name ml-2">
+                                ireland    
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-1.293</td>
+                            <td class="text-center">1</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>   
+                  </div>
+                  <div class="tab-pane fade" id="pills-home-1" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <h1 class="t20-wc-24-standing-section-points-table-name mb-3 mt-3">
+                      group b  
+                    </h1>
+                    <div class="d-md-none">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col" class="text-center">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">pld</th>
+                            <th scope="col" class="text-center">nrr</th>
+                            <th scope="col" class="text-center">pts</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 1</th>
+                            <td>
+                              <img src="./Images/Australia-flag.svg.png" class="point-table-team-image-small" alt="australia-logo">
+                              <span class="point-table-teams-name">
+                                aus
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+2.791</td>
+                            <td class="text-center">8</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 2</th>
+                            <td>
+                              <img src="./Images/enlgand-flag.png" class="point-table-team-image-small" alt="englad-logo">
+                              <span class="point-table-teams-name">
+                                eng    
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+3.611</td>
+                            <td class="text-center">5</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;3</th>
+                            <td>
+                              <img src="./Images/scotland-flag.png" class="point-table-team-image-small" alt="scotland-logo">
+                              <span class="point-table-teams-name">
+                                sco   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+1.255</td>
+                            <td class="text-center">5</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;4</th>
+                            <td>
+                              <img src="./Images/namimai-flag.png" class="point-table-team-image-small" alt="nambia-logo">
+                              <span class="point-table-teams-name">
+                                nam 
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">-2.585</td>
+                            <td class="text-center">2</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;5</th>
+                            <td>
+                              <img src="./Images/omn-flag.png" class="point-table-team-image-small" alt="oma-logo">
+                              <span class="point-table-teams-name">
+                                oma    
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">-3.062</td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="d-none d-md-block">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">played</th>
+                            <th scope="col" class="text-center">won</th>
+                            <th scope="col" class="text-center">lost</th>
+                            <th scope="col" class="text-center">n/r</th>
+                            <th scope="col" class="text-center">tied</th>
+                            <th scope="col" class="text-center">net rr</th>
+                            <th scope="col" class="text-center">points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="text-cente t20-wc-24-point-table-rows">
+                            <th scope="row">Q 1</th>
+                            <td>
+                              <img src="./Images/Australia-flag.svg.png" class="point-table-team-image" alt="australia-logo">
+                              <span class="point-table-teams-name ml-2">
+                                australia   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+2.791</td>
+                            <td class="text-center">8</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">Q 2</th>
+                            <td>
+                              <img src="./Images/enlgand-flag.png" class="point-table-team-image" alt="englad-logo">
+                              <span class="point-table-teams-name ml-2">
+                                england   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+3.611</td>
+                            <td class="text-center">5</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 3</th>
+                            <td>
+                              <img src="./Images/scotland-flag.png" class="point-table-team-image" alt="scotland-logo">
+                              <span class="point-table-teams-name ml-2">
+                                scotland    
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+1.255</td>
+                            <td class="text-center">5</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 4</th>
+                            <td>
+                              <img src="./Images/namimai-flag.png" class="point-table-team-image" alt="nambia-logo">
+                              <span class="point-table-teams-name ml-2">
+                                namibia   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-2.585</td>
+                            <td class="text-center">2</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 5</th>
+                            <td>
+                              <img src="./Images/omn-flag.png" class="point-table-team-image" alt="oma-logo">
+                              <span class="point-table-teams-name ml-2">
+                                oman    
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-3.062</td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>   
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile-1" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <h1 class="t20-wc-24-standing-section-points-table-name mb-3 mt-3">
+                      group c  
+                    </h1>
+                    <div class="d-md-none">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col" class="text-center">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">pld</th>
+                            <th scope="col" class="text-center">nrr</th>
+                            <th scope="col" class="text-center">pts</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 1</th>
+                            <td>
+                              <img src="./Images/wi-flag.png" class="point-table-team-image-small" alt="wi-logo">
+                              <span class="point-table-teams-name">
+                                wi  
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+3.257</td>
+                            <td class="text-center">8</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 2</th>
+                            <td>
+                              <img src="./Images/Flag-Afghanistan.webp" class="point-table-team-image-small" alt="afghanistan-logo">
+                              <span class="point-table-teams-name">
+                                afg    
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+1.835</td>
+                            <td class="text-center">6</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;3</th>
+                            <td>
+                              <img src="./Images/nz-flag.png" class="point-table-team-image-small" alt="newzealand-logo">
+                              <span class="point-table-teams-name">
+                                nz   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+0.415</td>
+                            <td class="text-center">4</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;4</th>
+                            <td>
+                              <img src="./Images/uganda-glag.png" class="point-table-team-image-small" alt="uganda-logo">
+                              <span class="point-table-teams-name">
+                                uga   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">-4.510</td>
+                            <td class="text-center">2</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;5</th>
+                            <td>
+                              <img src="./Images/png-flag.png" class="point-table-team-image-small" alt="png-logo">
+                              <span class="point-table-teams-name">
+                                png    
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">-1.268</td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="d-none d-md-block">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">played</th>
+                            <th scope="col" class="text-center">won</th>
+                            <th scope="col" class="text-center">lost</th>
+                            <th scope="col" class="text-center">n/r</th>
+                            <th scope="col" class="text-center">tied</th>
+                            <th scope="col" class="text-center">net rr</th>
+                            <th scope="col" class="text-center">points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="text-cente t20-wc-24-point-table-rows">
+                            <th scope="row">Q 1</th>
+                            <td>
+                              <img src="./Images/wi-flag.png" class="point-table-team-image" alt="wi-logo">
+                              <span class="point-table-teams-name ml-2">
+                                west indies   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+3.257</td>
+                            <td class="text-center">8</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">Q 2</th>
+                            <td>
+                              <img src="./Images/Flag-Afghanistan.webp" class="point-table-team-image" alt="afghanistan-logo">
+                              <span class="point-table-teams-name ml-2">
+                                afghanistan  
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+1.835</td>
+                            <td class="text-center">6</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 3</th>
+                            <td>
+                              <img src="./Images/nz-flag.png" class="point-table-team-image" alt="newzealand-logo">
+                              <span class="point-table-teams-name ml-2">
+                                new zealand    
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+0.415</td>
+                            <td class="text-center">4</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 4</th>
+                            <td>
+                              <img src="./Images/uganda-glag.png" class="point-table-team-image" alt="uganda-logo">
+                              <span class="point-table-teams-name ml-2">
+                                uganda   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-4.510</td>
+                            <td class="text-center">2</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 5</th>
+                            <td>
+                              <img src="./Images/png-flag.png" class="point-table-team-image" alt="png-logo">
+                              <span class="point-table-teams-name ml-2">
+                                papua new guinea
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-1.268</td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>   
+                  </div>
+                  <div class="tab-pane fade" id="pills-contact-1" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <h1 class="t20-wc-24-standing-section-points-table-name mb-3 mt-3">
+                      group d  
+                    </h1>
+                    <div class="d-md-none">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col" class="text-center">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">pld</th>
+                            <th scope="col" class="text-center">nrr</th>
+                            <th scope="col" class="text-center">pts</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 1</th>
+                            <td>
+                              <img src="./Images/south-africa-flag.png" class="point-table-team-image-small" alt="south-africa-logo">
+                              <span class="point-table-teams-name">
+                                sa  
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+0.470</td>
+                            <td class="text-center">8</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center">Q 2</th>
+                            <td>
+                              <img src="./Images/bangladesh-flag.png" class="point-table-team-image-small" alt="bangladesh-logo">
+                              <span class="point-table-teams-name">
+                                ban    
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+0.616</td>
+                            <td class="text-center">6</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;3</th>
+                            <td>
+                              <img src="./Images/srilanka-flag.png" class="point-table-team-image-small" alt="srilanka-logo">
+                              <span class="point-table-teams-name">
+                                sl   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">+0.863</td>
+                            <td class="text-center">3</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;4</th>
+                            <td>
+                              <img src="./Images/nedreland-flag.png" class="point-table-team-image-small" alt="nedreland-logo">
+                              <span class="point-table-teams-name">
+                                ned   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">-1.358</td>
+                            <td class="text-center">2</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row" class="text-center pl-4">&nbsp;5</th>
+                            <td>
+                              <img src="./Images/nepal-flag.png" class="point-table-team-image-small" alt="nepal-logo">
+                              <span class="point-table-teams-name">
+                                nep    
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">-0.542</td>
+                            <td class="text-center">1</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="d-none d-md-block">
+                      <table class="table">
+                        <thead class="thead-color">
+                          <tr>
+                            <th scope="col">pos</th>
+                            <th scope="col">team</th>
+                            <th scope="col" class="text-center">played</th>
+                            <th scope="col" class="text-center">won</th>
+                            <th scope="col" class="text-center">lost</th>
+                            <th scope="col" class="text-center">n/r</th>
+                            <th scope="col" class="text-center">tied</th>
+                            <th scope="col" class="text-center">net rr</th>
+                            <th scope="col" class="text-center">points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="text-cente t20-wc-24-point-table-rows">
+                            <th scope="row">Q 1</th>
+                            <td>
+                              <img src="./Images/south-africa-flag.png" class="point-table-team-image" alt="south-africa-logo">
+                              <span class="point-table-teams-name ml-2">
+                                south africa  
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+0.470</td>
+                            <td class="text-center">8</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">Q 2</th>
+                            <td>
+                              <img src="./Images/bangladesh-flag.png" class="point-table-team-image" alt="bangladesh-logo">
+                              <span class="point-table-teams-name ml-2">
+                                bangladesh  
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+0.616</td>
+                            <td class="text-center">6</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 3</th>
+                            <td>
+                              <img src="./Images/srilanka-flag.png" class="point-table-team-image" alt="srilanka-logo">
+                              <span class="point-table-teams-name ml-2">
+                                sri lanka   
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">2</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">+0.863</td>
+                            <td class="text-center">3</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 4</th>
+                            <td>
+                              <img src="./Images/nedreland-flag.png" class="point-table-team-image" alt="nedreland-logo">
+                              <span class="point-table-teams-name ml-2">
+                                netherlands    
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-1.358</td>
+                            <td class="text-center">2</td>
+                          </tr>
+                          <tr class="t20-wc-24-point-table-rows">
+                            <th scope="row">&nbsp;&nbsp;&nbsp; 5</th>
+                            <td>
+                              <img src="./Images/nepal-flag.png" class="point-table-team-image" alt="nepal-logo">
+                              <span class="point-table-teams-name ml-2">
+                                nepal     
+                              </span>
+                            </td>
+                            <td class="text-center">4</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">1</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center">-0.542</td>
+                            <td class="text-center">1</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>   
+                  </div>
+                </div>
+              </div>       
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

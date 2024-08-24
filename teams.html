@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/760a783ab5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Teams | ICC Men's T20 World Cup 2024</title>
+</head>
+<body>
+     <!--T20-WorldCup-2024-NavBar-->
+     <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="t20-wc-nav-bar-bg-color">
+        <a class="navbar-brand" href="#">
+            <img src="./Images/ICCT20W- 2024 _ Logo.jpeg" class="t20-wc-2024-logo-small d-block d-md-none"/>
+            <img src="./Images/ICCT20W- 2024 _ Logo.jpeg" class="t20-wc-2024-logo d-none d-md-block"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active d-md-none" id="nav-item-link-1-small" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link d-md-none" id="nav-item-link-2-small" href="matches.html">Matches</a>
+            <a class="nav-link d-md-none" id="nav-item-link-3-small" href="teams.html">Teams</a>
+            <a class="nav-link d-md-none" id="nav-item-link-4-small" href="points_table.html">Points Table</a>
+            <a class="nav-link d-md-none" id="nav-item-link-5-small" href="#">Venues</a>
+            <a class="nav-link d-md-none" id="nav-item-link-6-small" href="#">News</a>
+            <a class="nav-link d-md-none" id="nav-item-link-7-small" href="#">Info</a>
+            <a class="nav-link d-md-none" id="nav-item-link-8-small" href="#">Contact Us</a>
+            <a class="nav-link active d-none d-md-block" id="nav-item-link-1" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link d-none d-md-block" id="nav-item-link-2" href="matches.html">Matches</a>
+            <a class="nav-link d-none d-md-block" id="nav-item-link-3" href="teams.html">Teams</a>
+            <a class="nav-link d-none d-md-block" id="nav-item-link-4" href="points_table.html">Points Table</a>
+            <a class="nav-link d-none d-md-block" id="nav-item-link-5" href="#">Venues</a>
+            <a class="nav-link d-none d-md-block" id="nav-item-link-6" href="#">News</a>
+            <a class="nav-link d-none d-md-block" id="nav-item-link-7" href="#">Info</a>
+            <a class="nav-link d-none d-md-block" id="nav-item-link-8" href="#">Contact Us</a>
+          </div>
+        </div>
+     </nav>
+    <!--T20-WorldCup-2024-teams-section-->
+    <div class="t20-wc-24-teams-section-bg-container mt-5 pb-5 pt-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <div class="t20-wc-24-teams-section-heading mt-5">
+                        <h1 class="pr-2 pl-2 mt-4">teams</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/india-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                india
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    1
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                winner <br/>'07,'24
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/Australia-flag.svg.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                australia
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    2
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                winner <br/>'21
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/enlgand-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                england
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    3
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                winner <br/>'10,'22
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/wi-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                west indies
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    4
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                winner <br/>'12,'16
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/south-africa-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                south africa
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    5
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                final
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center ">
+                        <div class="text-center p-3">
+                            <img src="./Images/nz-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                new zealand
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    6
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                final
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/pakistan-flag.jpeg" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                pakistan
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    7
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                final
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/srilanka-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                sri lanka
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    8
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                winner <br/>'14
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/bangladesh-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                bangladesh
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    9
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                super eight
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/Flag-Afghanistan.webp" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                afghanistan
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    10
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                semi final
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center ">
+                        <div class="text-center p-3">
+                            <img src="./Images/ireland-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                ireland 
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    11
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                super 12
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/scotland-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                scotland
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    13
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                super 12
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/namimai-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                namibia
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    14
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                super 12
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center ">
+                        <div class="text-center p-3">
+                            <img src="./Images/nedreland-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                netherlands
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    15
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                super 10
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/nepal-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                nepal
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    17
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                group
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/usa-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                usa
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    18
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                super eight 
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/omn-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                oman
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    19
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                group
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/png-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                papua new guinea
+                            </h1>
+                            <p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    20
+                                </span>
+                            </p>
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                group 
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/canada-flag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                canada
+                            </h1>
+                            <!--<p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    4
+                                </span>
+                            </p>-->
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                group
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                    <div class="t20-wc-24-teams-card-bg-container mt-3 d-flex flex-column justify-content-center">
+                        <div class="text-center p-3">
+                            <img src="./Images/uganda-glag.png" class="mt-5 icc-mens-teams-img"/>
+                            <h1 class="t20-wc-24-teams-section-team-name mt-3">
+                                uganda
+                            </h1>
+                            <!--<p class="t20-wc-24-teams-section-team-ranking">
+                                t20i ranking : 
+                                <span class="t20-wc-24-teams-section-team-ranking-number">
+                                    4
+                                </span>
+                            </p>-->
+                            <p class="t20-wc-24-teams-section-team-highest-cwc">
+                                highest cwc finish
+                            </p>
+                            <h1 class="t20-wc-24-teams-section-team-winner mt-3">
+                                group 
+                            </h1>
+                            <button class="btn bg-white t20-wc-24-teams-section-team-button mt-4">
+                                <a href="#" style="text-decoration: none;">
+                                    team profile
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

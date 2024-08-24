@@ -1,0 +1,477 @@
+/*---t20-WC-2024-NavBar-section--*/
+.t20-wc-2024-logo {
+    width: 100px;
+    height: 90px;
+    border-radius: 20px;
+}
+.t20-wc-2024-logo-small {
+    width: 80px;
+    height: 70px;
+    border-radius: 20px;
+}
+#t20-wc-nav-bar-bg-color {
+    background-image: linear-gradient(to right,#133a75,#1c5d9c,#02a7d1);
+}
+#nav-item-link-1 {
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+#nav-item-link-2 {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+}
+#nav-item-link-3 {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+}
+#nav-item-link-4 {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+}
+#nav-item-link-5 {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+}
+#nav-item-link-6 {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+}
+#nav-item-link-7 {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+}
+#nav-item-link-8 {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+}
+#nav-item-link-1-small {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+#nav-item-link-2-small {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+#nav-item-link-3-small {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+#nav-item-link-4-small {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+#nav-item-link-5-small {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+#nav-item-link-6-small {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+#nav-item-link-7-small {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+#nav-item-link-8-small {
+    color: #fef2f4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+/*--t20-wc-2024-banner-section--*/
+
+.t20-wc-2024-banner-section {
+    background-image: radial-gradient(#1c5d9c,#133a75);
+}
+.t20-wc-banner-section-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.t20-wc-banner-section-image-small {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.t20-wc-banner-section-heading {
+    color: #79ace0;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.t20-wc-banner-section-venues {
+    color: #da2c5a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+}
+.t20-wc-banner-section-custom-button {
+    width: 190px;
+    height: 39px;
+    color: #e5bac6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    border-width: 0;
+    border-radius: 16px;
+    background-image: linear-gradient(to right,#02a7d1,#1c5d9c,#133a75);
+
+}
+.t20-wc-banner-section-duration {
+    color: #fef2f4;
+    font-size: 18px;
+    font-style: italic;
+}
+
+/*t20-wc-featured-matches-section*/
+
+.t20-wc-featured-matches-section-container{
+    background-color: #ffffff;
+}
+.t20-wc-featured-matches-section-heading {
+    color: #133a75;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    float: left;
+}
+.t20-wc-featured-matches-section-matches-link {
+    color: #1c5d9c;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.t20-wc-matches-card-container {
+    /*background-image: linear-gradient(to right,#02a7d1,#1c5d9c,#133a75);*/
+    background-color: #eecece;
+    border-radius: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.t20-wc-matches-card-image {
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+    border-radius: 50px;
+}
+.t20-wc-matches-team-name {
+    color: rgba(127, 179, 205, 0.796);
+    font-size: 14px;
+    font-weight: 700;
+}
+.t20-wc-matches-score {
+    color: #d32a2a;
+    font-size: 16px;
+    font-weight: 600;
+}
+.t20-wc-matche-win-team-name {
+    color: rgb(89, 7, 55);
+    font-size: 18px;
+    font-weight: 600;
+}
+.t20-wc-matche-number {
+    color: rgb(215, 125, 8);
+    font-size: 12px;
+}
+.t20-wc-featured-matches-section {
+    background-color: #fff;
+    font-family: "roboto";
+}
+.t20-matches-title-section {
+    /*background-image: linear-gradient(to right,#02a7d1,#1c5d9c,#133a75);*/
+    background-image: url("./Images/icc-bg-image-2.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.t20-matches-title-section-heading {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.t20-matches-title-section-heading-small {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.t20-matches-title-section-link {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.t20-matches-title-section-link-small {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+.t20-wc-matches-card-section {
+    background-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #7a7a78;
+    border-radius: 8px;
+    padding: 10px;
+}
+.t20-wc-matches-card-title {
+    color: #f549c4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.t20-wc-matches-card-matche-date {
+    color: #323f4b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+.t20-wc-matches-card-location {
+    color: #7a7a78;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.match-card-image {
+    width: 50px;
+    height: 30px;
+}
+.t20-wc-matches-team-name {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.t20-wc-matches-team-score {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.t20-wc-matches-team-name-small {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.t20-wc-matches-team-score-small {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.h-line {
+    height: 3px;
+    width: 10px;
+    color: #bfbf06;
+}
+.team-vs-team {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #323f4b;
+}
+.match-win-stmt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.custom-matche-button {
+    width: 160px;
+    height: 38px;
+    color: #1c5d9c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #8faef7;
+    
+}
+.a-link {
+    text-decoration: none;
+} 
+
+/*T20-WorldCup-2024-teams-section*/
+.t20-wc-24-teams-section-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    /*background-image: linear-gradient(to right, #8faef7,#1282e3,#4a78ed,#121287,
+    #5672d6
+    );*/
+    
+}
+.t20-wc-24-teams-card-bg-container {
+    background-image: url("./Images/icc-mens-24-team-bg-image.jpg");
+    background-size: cover;
+    border-radius: 16px;
+}
+.icc-mens-teams-img {
+    width: 130px;
+    height: 90px;
+    border-radius: 16%;
+}
+.t20-wc-24-teams-section-bg-container {
+    background-image: url("./Images/icc-bg-image-2.jpg");
+    background-size: cover;
+}
+.t20-wc-24-teams-section-team-name {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.t20-wc-24-teams-section-team-ranking {
+    color: #8faef7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.t20-wc-24-teams-section-team-ranking-number {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.t20-wc-24-teams-section-team-highest-cwc {
+    color: #8faef7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.t20-wc-24-teams-section-team-winner {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.t20-wc-24-teams-section-team-button {
+    border-width: 0px;
+    border-radius: 16px;
+    width: 170px;
+    height: 40px;
+    color: #0861e7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.t20-wc-24-team-section-all-teams-link {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/*t20-wc-24-standing-section*/
+.t20-wc-24-standing-section-bg-container {
+    background-color: #ffffff;
+}
+.t20-wc-24-standing-section-heading {
+    color: #030583;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#super-eight-group-1 {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#super-eight-group-2 {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#group-a {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#group-b {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#group-c {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#group-d {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.t20-wc-24-standing-section-points-table-name {
+    color: #030583;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.thead-color {
+    background-color: #0f056b;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.t20-wc-24-point-table-rows {
+    color: #022e5a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.point-table-team-image {
+    width: 30px;
+}
+.point-table-team-image-small {
+    width: 25px;
+}
+.point-table-teams-name {
+    color: #011f4e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
